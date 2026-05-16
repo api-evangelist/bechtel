@@ -7,11 +7,74 @@ tags:
   - Construction
   - Engineering
   - Infrastructure
-description: 'One of the largest privately held engineering, procurement, and construction companies in the world. Has delivered iconic infrastructure projects including the Hoover Dam, the Channel Tunnel, and major energy and transportation facilities across 160 countries.'
+  - Energy
+description: >-
+  Bechtel is one of the largest privately held engineering, procurement, and
+  construction (EPC) companies in the world. Bechtel does not publish a
+  public developer portal; technology integration is delivered through
+  project-specific data exchanges with owners, joint-venture partners, and
+  subcontractors, the Bechtel supplier portal, and industry-standard
+  construction data exchange formats (IFC, COBie, CDE) over secure
+  project-management platforms.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.bechtel.com/
+  - type: Suppliers
+    url: https://www.bechtel.com/suppliers/
+  - type: Subcontractors
+    url: https://www.bechtel.com/suppliers/become-a-bechtel-subcontractor/
+  - type: Projects
+    url: https://www.bechtel.com/projects/
+  - type: Careers
+    url: https://www.bechtel.com/careers/
+  - type: PrivacyPolicy
+    url: https://www.bechtel.com/privacy-policy/
+  - type: TermsOfService
+    url: https://www.bechtel.com/terms-of-use/
+  - type: Contact
+    url: https://www.bechtel.com/contact-us/
+  - type: Features
+    data:
+      - name: EPC Project Delivery
+        description: Bechtel delivers large-scale energy, mining, infrastructure, and defense projects under engineering-procurement-construction contracts.
+      - name: Supplier Portal
+        description: Registered suppliers and subcontractors transact with Bechtel through a managed supplier portal covering qualification, RFPs, purchase orders, and invoicing.
+      - name: Project Common Data Environments
+        description: Each major project operates a Common Data Environment (CDE) where owners, engineers, contractors, and subs exchange drawings, models, RFIs, submittals, and change orders.
+      - name: BIM and IFC Models
+        description: Building Information Modeling deliverables are exchanged in IFC, COBie, and proprietary platform formats with project stakeholders.
+      - name: Defense and Government Work
+        description: Bechtel performs work for the US Department of Energy, Department of Defense, and the UK Ministry of Defence under controlled programs.
+  - type: UseCases
+    data:
+      - name: Major Capital Project Delivery
+        description: Owners engage Bechtel to plan, engineer, procure, construct, and commission large capital assets.
+      - name: Supplier and Subcontractor Onboarding
+        description: Suppliers and subcontractors register with Bechtel and exchange commercial documents through the supplier portal.
+      - name: Owner Engineering and PMC
+        description: Bechtel acts as owner's engineer or program management contractor on multi-party programs such as megaprojects and infrastructure rollouts.
+      - name: Decommissioning and Environmental Remediation
+        description: Bechtel decommissions nuclear, defense, and industrial facilities and remediates impacted sites under regulated programs.
+  - type: Compliance
+    data:
+      - name: NIST SP 800-171 / CMMC
+        description: US Department of Defense programs require protection of Controlled Unclassified Information under NIST SP 800-171 and CMMC.
+      - name: DOE 10 CFR Part 851 / 10 CFR Part 830
+        description: US Department of Energy work follows worker safety and nuclear quality assurance regulations.
+      - name: ISO 9001 / ISO 14001 / ISO 45001
+        description: Quality, environmental, and occupational health & safety management systems align with applicable ISO standards.
+      - name: FCPA / UK Bribery Act
+        description: Anti-bribery controls follow the US Foreign Corrupt Practices Act and UK Bribery Act.
+      - name: GDPR
+        description: Personal data of European employees, suppliers, and customers is handled under the EU General Data Protection Regulation.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
