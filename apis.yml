@@ -39,10 +39,14 @@ description: >-
   construction data exchange formats (IFC, COBie, CDE) over secure
   project-management platforms.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.bechtel.com/media/blog/
+    type: Blog
+  - url: https://www.bechtel.com/media/blog/feed/
+    type: BlogRSS
   - type: DomainSecurity
     url: security/bechtel-domain-security.yml
   - type: LinkedIn
